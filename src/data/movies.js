@@ -11,7 +11,7 @@ const BACKDROPS = [
   file("pria-solo-backdrop.png?"),
   file("Beja-backdrop.png"),
   file("ragnamok-backdrop.png"),
-  file"rumah-canda-tawa-backdrop.png",
+  file("Rumah-canda-tawa-backdrop.png"),
   "a",
 ];
 
@@ -26,7 +26,7 @@ const POSTERS = [
   file("pria-solo.png"),
   file("beja.png"),
   file("Seruan-aksi-ragnamok.png"),
-  file("Rumah-canda-tawa.png"),
+  file("rumah-canda-dan-tawa-poster.png"),
   "a",
 ];
 
