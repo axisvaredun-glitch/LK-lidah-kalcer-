@@ -121,7 +121,7 @@ export default function App() {
           movies: movies.filter((movie) => watchlist.includes(movie.id)),
           empty: (
             <div className="flex flex-col items-center gap-4 py-16 text-center">
-              <p className="text-muted">Daftar tontonanmu masih kosong.</p>
+              <p className="text-muted">Daftar tontonan kosong.</p>
               <button
                 type="button"
                 onClick={() => navigate('home')}

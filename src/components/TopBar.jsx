@@ -10,7 +10,7 @@ export default function TopBar({ view, onNavigate, query, onQueryChange, watchli
           onClick={() => onNavigate('home')}
           className="order-1 text-xl font-bold tracking-tight transition-opacity hover:opacity-80"
         >
-          LK(lidah kada) 21<span className="text-neon">.</span>
+          LK(lidah kadal) 21<span className="text-neon">.</span>
         </button>
 
         <nav aria-label="Menu utama" className="order-3 hidden md:order-2 md:flex md:items-center md:gap-6">
