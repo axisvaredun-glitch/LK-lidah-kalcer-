@@ -206,7 +206,7 @@ export const movies = [
     runtime: '1 season',
     rating: 0.0,
     genres: ['Thriller'],
-    synopsis: 'Alone',
+    synopsis: 'Ada yang bilang ini suatu kutukan, ada yang mengatakan ini suatu anugerah, ada yang bilang ini suatu kesalahan, ada yang bilang ini suatu kebetulan, ada yang bilang ini suatu takdir, ada yang bilang ini suatu misteri, ada yang bilang ini suatu rahasia, ada yang bilang ini suatu keajaiban, ada yang bilang ini suatu kebetulan, ada yang bilang ini suatu tanpa sebab.',
     poster: POSTERS[11],
     backdrop: BACKDROPS[11],
     trending: false,
