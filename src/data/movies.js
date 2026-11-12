@@ -12,7 +12,7 @@ const BACKDROPS = [
   file("Beja-backdrop.png"),
   file("ragnamok-backdrop.png"),
   file("Rumah-canda-tawa-backdrop.png"),
-  "a",
+  file("Alone-backdrop.png"),
 ];
 
 const POSTERS = [
@@ -27,7 +27,7 @@ const POSTERS = [
   file("beja.png"),
   file("Seruan-aksi-ragnamok.png"),
   file("rumah-canda-dan-tawa-poster.png"),
-  "a",
+  file("Alone-poster.png"),
 ];
 
 export const GENRES = ['Drama', 'Thriller', 'Sci-Fi', 'Action', 'Mystery', 'Romance', 'Horror', 'Crime', 'Documentary', 'Reality Television', 'Comedy', 'Biography'];
@@ -131,7 +131,7 @@ export const movies = [
     runtime: '1j 49m',
     rating: 7.5,
     genres: ['Crime', 'Thriller', 'Mystery'],
-    synopsis: 'Tanpa invasi, alat perangnya diputar ke dalam negeri. Sepanjang 2025–2026 penyadapan polisi menyasar jurnalis, aktivis, politisi, anti suki, dan lembaga sipil, dengan mantan Kapolri di lingkungan istana yang kemudian jadi tersangka, dan perkara itu baru meledak ketika nomor presiden sendiri ikut tersadap. Di samping alat sadap itu berjalan program halunya: Makan Bergizi Gratis menjatuhkan ribuan murid karena keracunan, Koperasi Desa Merah Putih ditebar bermodal ratusan triliun lalu banyak kantornya sepi, Danantara menggenggam ratusan BUMN, ditambah tiga juta rumah dan sekolah rakyat yang diumumkan sebelum dihitung. Efisiensi memotong pendidikan dan kesehatan, UU TNI mengembalikan prajurit ke jabatan sipil. Senjatanya menghadap bangsanya sendiri, sampai moncongnya kena teleponnya.',
+    synopsis: 'Tanpa invasi, alat perangnya diputar ke dalam negeri. Sepanjang 2025–2026 penyadapan polisi menyasar jurnalis, aktivis, politisi, anti suki, dan lembaga sipil, dengan mantan Kapolri di lingkungan istana yang kemudian jadi tersangka, dan perkara itu baru meledak ketika nomor presiden sendiri ikut tersadap. Di samping alat sadap itu berjalan program halu, diantaranya Makan Bergizi Gratis menjatuhkan ribuan murid karena keracunan, Koperasi Desa Merah Putih ditebar bermodal ratusan triliun lalu banyak kantornya sepi, Danantara menggenggam ratusan BUMN, ditambah tiga juta rumah dan sekolah rakyat yang diumumkan sebelum dihitung. Efisiensi memotong pendidikan dan kesehatan, UU TNI mengembalikan prajurit ke jabatan sipil. Senjatanya menghadap bangsa, sampai sang ular menggigit ekornya sendiri.',
     poster: POSTERS[6],
     backdrop: BACKDROPS[6],
     trending: false,
@@ -191,7 +191,7 @@ export const movies = [
     runtime: '2 Season',
     rating: 8.0,
     genres: ['Comedy', 'Drama', 'Crime'],
-    synopsis: 'a',
+    synopsis: 'aku anak pintar',
     poster: POSTERS[10],
     backdrop: BACKDROPS[10],
     trending: false,
@@ -200,16 +200,16 @@ export const movies = [
   },
   {
     id: 12,
-    title: 'Shadow Protocol',
+    title: 'Alone',
     type: 'series',
-    year: 2026,
-    runtime: '1 Musim',
+    year: 1997,
+    runtime: '1 season',
     rating: 7.8,
-    genres: ['Thriller', 'Sci-Fi'],
-    synopsis: 'Sebuah agensi rahasia menemukan bahwa dokumen yang mereka lindungi selama dua dekade ternyata ditulis oleh mesin yang belum selesai.',
+    genres: ['Thriller'],
+    synopsis: 'Alone',
     poster: POSTERS[11],
     backdrop: BACKDROPS[11],
-    trending: true,
+    trending: false,
     popular: false,
     featured: true,
   },
