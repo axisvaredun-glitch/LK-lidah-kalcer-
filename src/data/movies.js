@@ -200,7 +200,7 @@ export const movies = [
   },
   {
     id: 12,
-    title: 'Alone',
+    title: 'Pure Solitude',
     type: 'series',
     year: 1997,
     runtime: '1 season',
