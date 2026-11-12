@@ -204,7 +204,7 @@ export const movies = [
     type: 'series',
     year: 1997,
     runtime: '1 season',
-    rating: 7.8,
+    rating: 0.0,
     genres: ['Thriller'],
     synopsis: 'Alone',
     poster: POSTERS[11],
